@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Menu, CodeXml } from "lucide-react";
 const Navbar = () => {
   return (
-    <nav className="flex items-center justify-between gap-4 w-[90%] max-w-3xl mx-auto top-5 bg-[#171717] fixed z-50  left-1/2 -translate-x-1/2 py-4 px-6 rounded-full border  border-[#333333] backdrop-blur-md ">
+    <nav className="flex items-center justify-between gap-4 w-[90%] max-w-3xl mx-auto top-5 bg-[#171717] fixed z-50  left-1/2 -translate-x-1/2 py-4 px-6 rounded-full border  border-[#333333] backdrop-blur-md  hover:border-[#C4F82A]">
       <div className="text-center text-[20px] text-[#C4F82A]">
         <span className="flex items-center justify-center gap-1 ">
           Adil.Dev <CodeXml size={20} className="text-[#C4F82A]" />

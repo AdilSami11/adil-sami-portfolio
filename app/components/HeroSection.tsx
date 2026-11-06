@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Download, MoveDownLeft, MapPin, FolderGit2 } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 const HeroSection = () => {
   return (
@@ -24,12 +25,12 @@ const HeroSection = () => {
         <div className="flex gap-3 mt-3">
           <Link href={"https://github.com/AdilSami11"} target="_blank">
             <button className="flex items-center justify-center gap-2 py-2 px-2.5 bg-[#C4F82A] border-amber-100 text-black rounded-2xl text-center font-medium md:py-2.5 md:px-6 ">
-              <FolderGit2 size={18} />
+              <FaGithub size={20} />
               Github
             </button>
           </Link>
           <button className="flex items-center justify-center gap-2 py-2 px-2.5 bg-[#C4F82A] border-amber-100 text-black rounded-2xl text-center font-medium md:py-2.5 md:px-6 ">
-            <Download size={18} />
+            <Download size={20} />
             Downlaod Cv
           </button>
         </div>

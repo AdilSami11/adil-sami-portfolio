@@ -2,6 +2,7 @@ import type { Project } from "../types/projectType";
 import Link from "next/link";
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
 
 interface ProjectCardProps {
   project: Project;
@@ -32,7 +33,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       </div>
       <div className="flex items-center w-full justify-between px-5">
         <button className="flex items-center gap-1.5 p-2 rounded-md text-[#c5f82ad1]">
-          Github
+          GitHub <FaGithub size={22} />
         </button>
         <button className="flex items-center gap-1.5 p-2 rounded-md text-[#c5f82ad1]">
           Live <ArrowUpRight />

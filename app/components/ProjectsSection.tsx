@@ -1,5 +1,7 @@
 import { projects } from "@/data/projects";
 import ProjectCard from "./ProjectCard";
+import { MoveDownRight } from "lucide-react";
+
 const ProjectsSection = () => {
   return (
     <div className="w-full py-10 px-5">
@@ -15,6 +17,9 @@ const ProjectsSection = () => {
             <ProjectCard key={project.id} project={project} />
           ))}
         </div>
+      </div>
+      <div className="mt-13 flex items-center justify-center ">
+        <MoveDownRight size={40} className="text-[#C4F82A]" />
       </div>
     </div>
   );
