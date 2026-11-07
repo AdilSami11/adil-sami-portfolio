@@ -1,36 +1,120 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Adil Sami | Developer Portfolio
+
+A personal portfolio showcasing my journey as a Software Engineering student, my technical skills, selected projects, and experience in web development.
+
+Built with **Next.js, TypeScript, and Tailwind CSS**, with a focus on clean design, reusable components, and responsive user interfaces.
+
+## About Me
+
+I'm Adil Sami, a Software Engineering student passionate about building modern, responsive, and user-focused web applications.
+
+I enjoy working across the full stack, solving development problems, and continuously improving my software engineering skills.
+
+My primary interests include:
+
+- Full-Stack Web Development
+- MERN Stack Development
+- Next.js and TypeScript
+- Backend Development
+- Software Engineering and System Design
+
+## Tech Stack
+
+| Technology   | Purpose                       |
+| ------------ | ----------------------------- |
+| Next.js      | React framework               |
+| React        | UI development                |
+| TypeScript   | Type-safe development         |
+| Tailwind CSS | Styling and responsive design |
+| JavaScript   | Programming                   |
+| Git & GitHub | Version control               |
+
+## Features
+
+- Responsive portfolio layout
+- Modern and minimal user interface
+- Reusable React components
+- Projects showcase
+- About section
+- TypeScript-based development
+- Component-based architecture
+
+## Project Structure
+
+```text
+adil-sami-portfolio/
+│
+├── app/
+│   ├── components/
+│   ├── types/
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── data/
+│   └── projects.ts
+│
+├── public/
+│
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
+```
 
 ## Getting Started
 
-First, run the development server:
+Follow these steps to run the project locally.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/AdilSami11/adil-sami-portfolio.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd adil-sami-portfolio
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Available Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Command         | Description              |
+| --------------- | ------------------------ |
+| `npm run dev`   | Start development server |
+| `npm run build` | Create production build  |
+| `npm run start` | Start production server  |
+| `npm run lint`  | Run ESLint checks        |
 
-## Learn More
+## Connect With Me
 
-To learn more about Next.js, take a look at the following resources:
+I'm always interested in connecting with developers, collaborating on projects, and exploring opportunities to grow as a software engineer.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **GitHub:** [AdilSami11](https://github.com/AdilSami11)
+- **LinkedIn:** [Adil Sami](https://www.linkedin.com/in/adil-sami-8854983b3/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is currently maintained as a personal portfolio. No open-source license has been specified.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Built by Adil Sami**
+
+_Software Engineering Student | Full-Stack Developer_
