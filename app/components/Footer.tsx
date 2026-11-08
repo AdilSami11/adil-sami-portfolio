@@ -9,6 +9,9 @@ import {
 import { FaCode } from "react-icons/fa6";
 
 const Footer = () => {
+  const gmailLink =
+    "https://mail.google.com/mail/?view=cm&fs=1&to=adilsamikhan2005@gmail.com&su=Portfolio%20Contact";
+
   return (
     <footer className="w-full bg-[#0a0a0a] text-white border-t border-[#C4F82A]">
       <div className="max-w-6xl mx-auto px-5 py-16">
@@ -33,6 +36,7 @@ const Footer = () => {
             </p>
 
             <div className="flex items-center gap-4 mt-6">
+              {/* GitHub */}
               <a
                 href="https://github.com/AdilSami11"
                 target="_blank"
@@ -43,8 +47,9 @@ const Footer = () => {
                 <FaGithub size={20} />
               </a>
 
+              {/* LinkedIn */}
               <a
-                href="YOUR_LINKEDIN_URL"
+                href="https://www.linkedin.com/in/adil-sami-8854983b3/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
@@ -53,8 +58,11 @@ const Footer = () => {
                 <FaLinkedinIn size={20} />
               </a>
 
+              {/* Email */}
               <a
-                href="mailto:adilsamikhan2005@gmail.com"
+                href={gmailLink}
+                target="_blank"
+                rel="noopener noreferrer"
                 aria-label="Email"
                 className="w-11 h-11 flex items-center justify-center border border-[#333] rounded-full text-white hover:text-[#C4F82A] hover:border-[#C4F82A] transition-all"
               >
@@ -101,8 +109,11 @@ const Footer = () => {
               Feel free to reach out anytime!
             </p>
 
+            {/* Send Email */}
             <a
-              href="mailto:adilsamikhan2005@gmail.com"
+              href={gmailLink}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 text-[#C4F82A] hover:text-white transition-colors"
             >
               Send me an email
@@ -125,6 +136,7 @@ const Footer = () => {
             <span className="text-[#C4F82A]">•</span> BUILD
           </p>
 
+          {/* Back to Top */}
           <a
             href="#home"
             aria-label="Back to top"

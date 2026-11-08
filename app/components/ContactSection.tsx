@@ -13,7 +13,7 @@ const ContactSection = () => {
       name: "LinkedIn",
       description: "Connect with me professionally",
       icon: <FaLinkedinIn size={22} />,
-      link: "https://www.linkedin.com/in/your-profile",
+      link: "https://www.linkedin.com/in/adil-sami-8854983b3/",
     },
     {
       name: "Email",
@@ -51,6 +51,7 @@ const ContactSection = () => {
               href={item.link}
               target="_blank"
               rel="noopener noreferrer"
+              aria-label={`Contact me via ${item.name}`}
               className="group flex items-center justify-between gap-4 p-5 md:p-6 bg-[#111111] border border-[#292929] rounded-xl hover:border-[#C4F82A]/60 transition-all duration-300"
             >
               <div className="flex items-center gap-4">
@@ -62,6 +63,7 @@ const ContactSection = () => {
                   <h3 className="text-white font-medium text-lg">
                     {item.name}
                   </h3>
+
                   <p className="text-gray-500 text-sm mt-1">
                     {item.description}
                   </p>
