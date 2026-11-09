@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "NAQSH",
     description:
       "An e-commerce application for bags.An e-commerce application for bags ",
-    image: "/projects/naqsh.png",
+    image: "/images/EcommereceStore.webp",
     tech: ["Node.js", "Express", "EJS", "MongoDB"],
     github: "https://github.com/AdilSami11",
     live: "",
@@ -16,16 +16,16 @@ export const projects: Project[] = [
     title: "Netflix Clone",
     description:
       "A responsive movie browsing application.A responsive movie browsing application ",
-    image: "/projects/netflix.png",
+    image: "/images/Netflix_Clone.webp",
     tech: ["React", "CSS", "API"],
     github: "https://github.com/AdilSami11",
-    live: "",
+    live: "https://netflix-clone-website-navy.vercel.app/",
   },
   {
     id: 3,
     title: "Portfolio Website",
     description: "A responsive personal portfolio.",
-    image: "/projects/netflix.png",
+    image: "/images/Portfolio.webp",
     tech: ["Nexts.js", "TypeScript.js", "Tailwind"],
     github: "https://github.com/AdilSami11",
     live: "",

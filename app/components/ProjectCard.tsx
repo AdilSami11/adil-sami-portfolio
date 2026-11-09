@@ -14,7 +14,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
       <div className="w-full  overflow-hidden ">
         <img
           className="w-full h-full object-cover"
-          src="https://images.unsplash.com/photo-1779896412371-e7576b47b584?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=NHwxMjA3fDE%3D"
+          src={project.image}
           alt={project.title}
         />
       </div>
@@ -35,9 +35,11 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
         <button className="flex items-center gap-1.5 p-2 rounded-md text-[#c5f82ad1]">
           GitHub <FaGithub size={22} />
         </button>
-        <button className="flex items-center gap-1.5 p-2 rounded-md text-[#c5f82ad1]">
-          Live <ArrowUpRight />
-        </button>
+        <Link href={project.live}>
+          <button className="flex items-center gap-1.5 p-2 rounded-md text-[#c5f82ad1] cursor-pointer translate-x-0 hover:translate-x-1 transition all">
+            Live <ArrowUpRight />
+          </button>
+        </Link>
       </div>
     </div>
   );
