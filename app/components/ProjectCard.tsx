@@ -21,7 +21,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
 
       <h2 className="text-2xl text-[#c5f82ad1]">{project.title}</h2>
       <p className="text-[#A3A3A3] text-center  ">{project.description}</p>
-      <div className="flex flex-row items-center justify-center gap-2.5">
+      <div className="flex flex-row items-center justify-center flex-wrap gap-2.5">
         {project.tech.map((tech) => (
           <span
             key={tech}
