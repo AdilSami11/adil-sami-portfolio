@@ -10,17 +10,19 @@ interface ProjectCardProps {
 
 const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div className="flex flex-col items-center gap-4  py-5 px-2 rounded-2xl border border-white/10 bg-[#111]  hover:border-[#C4F82A] transition-all duration-300 ease-in-out hover:-translate-y-1 ">
+    <div className="flex flex-col items-center gap-4 py-5 px-2 rounded-2xl border border-white/10 bg-[#111]  hover:border-[#C4F82A] transition-all duration-300 ease-in-out hover:-translate-y-1 ">
+      {/* project-card-img-wrapper */}
       <div className="w-full  overflow-hidden ">
         <img
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover rounded-xl"
           src={project.image}
           alt={project.title}
         />
       </div>
-
+      {/* project-card-details-wrapper */}
       <h2 className="text-2xl text-[#c5f82ad1]">{project.title}</h2>
       <p className="text-[#A3A3A3] text-center  ">{project.description}</p>
+      {/* project-card-techStack-wrapper */}
       <div className="flex flex-row items-center justify-center flex-wrap gap-2.5">
         {project.tech.map((tech) => (
           <span
@@ -31,6 +33,7 @@ const ProjectCard = ({ project }: ProjectCardProps) => {
           </span>
         ))}
       </div>
+      {/* project-card-btns-wrapper */}
       <div className="flex items-center w-full justify-between px-5">
         <button className="flex items-center gap-1.5 p-2 rounded-md text-[#c5f82ad1]">
           GitHub <FaGithub size={22} />
